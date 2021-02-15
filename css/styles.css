@@ -1,0 +1,174 @@
+body {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 500;
+	text-align: center;
+}
+
+#title {
+	background-color: #ff4c68;
+	color: white;
+	text-align: left;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: "Montserrat", sans-serif;
+}
+
+/* заголовки  */
+.zag {
+	font-size: 3.5rem;
+	line-height: 1.5;
+	font-weight: 900;
+}
+.pricing-heading {
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+
+.container-fluid {
+	padding: 3% 15% 10%;
+}
+/* navigation bar */
+.navbar {
+	padding: 0 0 4.5rem;
+}
+
+.navbar-brand {
+	font-family: "Ubuntu";
+	font-size: 2.5rem;
+	font-weight: bold;
+}
+.nav-item {
+	padding: 0 18px;
+}
+.nav-link {
+	font-size: 1.2rem;
+	font-family: "Montserrat";
+	font-weight: 400;
+}
+/* кнопки загрузки */
+.dowbload-button {
+	margin: 5% 3% 5% 0;
+}
+/* изображение заголовка */
+.photo-title {
+	width: 60%;
+	transform: rotate(25deg);
+	position: absolute;
+	right: 30%;
+}
+/* features*/
+.features-text {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+#features {
+	padding: 7% 15%;
+	background-color: white;
+	position: relative;
+	z-index: 1;
+}
+.icon-reck {
+	color: #ef8172;
+	padding-bottom: 1rem;
+}
+.features-box {
+	padding: 4.5%;
+}
+
+.under-icon {
+	color: #8f8f8f;
+}
+.icon-reck:hover {
+	color: #ff4c68;
+}
+/* testimonials */
+#testimonials {
+	padding: 7% 15%;
+
+	background-color: #ef8172;
+	color: #ffff;
+}
+.testimonial-image {
+	width: 10%;
+	border-radius: 100%;
+	margin: 20px;
+}
+.testimonial-text {
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+.carousel-item {
+	padding: 7% 15%;
+}
+#press {
+	background-color: #ef8172;
+
+	padding-bottom: 3%;
+}
+.press-logo {
+	width: 15%;
+	margin: 20px 20px 50px;
+}
+/* pricing */
+.pricing-text {
+	font-weight: 700;
+	font-size: 3rem;
+	line-height: 1.5;
+}
+#pricing {
+	padding: 100px;
+}
+.pricing-colom {
+	padding: 3% 2%;
+}
+@media (max-width: 1028px) {
+	#title {
+		text-align: center;
+	}
+
+	.photo-title {
+		position: static;
+		transform: rotate(0);
+	}
+}
+.card-header {
+	font-weight: 700;
+	font-size: 1.5rem;
+}
+/* Call to Action */
+#cta {
+	padding: 7% 15%;
+
+	background-color: #ff4c68;
+	color: #ffff;
+}
+.cta-text {
+	font-family: "Montserrat", sans-serif;
+	font-weight: 900;
+	font-size: 3.5rem;
+	line-height: 1.5;
+}
+/*  Footer */
+#footer {
+	padding: 7% 15%;
+	line-height: 3;
+	background-color: white;
+}
+.footer-icons {
+	margin: 20px 10px;
+}
+.footer-p {
+	color: grey;
+}
+/* sectins */
+.white-section {
+}
+.color-section {
+}
